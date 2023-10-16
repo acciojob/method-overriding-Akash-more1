@@ -1,10 +1,12 @@
 package com.driver;
 
 public class Main {
+    public Main() {
+    }
   public static void main(String[] args) {
-    B obj=new B();
+    class_B obj=new class_B();
    String s=obj.meth();
-   System.out.println(obj.meth());
+   System.out.println(s);
   }
 
 
